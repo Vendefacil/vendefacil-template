@@ -1,0 +1,12 @@
+{
+  "name": "vendefacil",
+  "version": "0.0.1",
+  "description": "Library for vendefacil templates",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+	"vendefacil"
+  ],
+  "author": "Jairo Rauda",
+  "license": "ISC"
+}
