@@ -1,10 +1,15 @@
 import React from 'react'
-
-import { ExampleComponent } from 'vendefacil-template'
-import 'vendefacil-template/dist/index.css'
+import { useCustomInput } from 'vendefacil-template'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const i = useCustomInput();
+  return (
+    <>
+      <h1>VendeFacil Template</h1>
+      {i('store.name')}
+
+    </>
+  )
 }
 
 export default App
